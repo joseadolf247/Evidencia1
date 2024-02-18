@@ -52,11 +52,23 @@ section h3{
     margin-bottom: 20px;
 }
 
+section img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    float: left;
+}
+
 aside{
     float: left;
     width: calc(20%- 5px);
     min-height: 500px;
     padding: 10px;
+    text-align: center;
 }
 
 aside h2{
